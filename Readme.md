@@ -36,7 +36,7 @@ var List = [
 var wifi = new WiFi();
 
 wifi.uciscan(function(){
-  wifi.cache(List.wi_fi, function(err, ap){
+  wifi.cache(List, function(err, ap){
     wifi.uciset(function(){
       wifi.wifiup(function(){});
     });
