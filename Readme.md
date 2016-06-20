@@ -35,13 +35,12 @@ var List = [
 ]
 var wifi = new WiFi();
 
-wifi.uciscan(List.wi_fi, function(err, ap_result){
-  if(ap_result){
-    console.log('ap:' + JSON.stringify(ap_result));
+wifi.uciscan(function(){
+  wifi.cache(List.wi_fi, function(err, ap){
     wifi.uciset(function(){
       wifi.wifiup(function(){});
     });
-  }
+  });
 });
 ```
 

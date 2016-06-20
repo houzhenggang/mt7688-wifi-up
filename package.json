@@ -1,6 +1,6 @@
 {
   "name": "mt7688-wifi-up",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/wifi.js",
   "description": "Support psk2 and wep to connect the WiFi network.",
   "keywords": [
