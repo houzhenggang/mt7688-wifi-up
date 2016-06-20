@@ -9,6 +9,10 @@
     "mt7688",
     "wifi"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtsai/mt7688-wifi-up"
+  },
   "author": {
     "name": "Wesley Tsai",
     "email": "wesleyboy42@gmail.com"
@@ -16,5 +20,9 @@
   "license": "MIT",
   "dependencies": {
     "string": "^3.3.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/wtsai/mt7688-wifi-up/issues"
+  },
+  "homepage": "https://github.com/wtsai/mt7688-wifi-up#readme"
 }
